@@ -1,17 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import NewsHeader from "./components/News/Header";
-import NewsNavbar from "./components/News/Navbar";
-import News from "./components/News/News";
-
-// console.log(process.env.NEWS_API_KEY);
+import HighScoreMusical from "./pages/HighScoreMusical";
 
 function App() {
   return (
     <div>
-      <NewsHeader />
-      <NewsNavbar />
-      <News />
+      <HighScoreMusical />
     </div>
   );
 }

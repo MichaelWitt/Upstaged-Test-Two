@@ -4,15 +4,16 @@ import "./style.css";
 const styles = {
   headline: {
     textAlign: "center",
+    paddingBottom: 15,
   },
 };
 
-function NewsHeader() {
+function GameHeader() {
   return (
     <header className="header">
-      <h1 style={styles.headline}>UPSTAGED</h1>
+      <h1 style={styles.headline}>High Score Musical</h1>
     </header>
   );
 }
 
-export default NewsHeader;
+export default GameHeader;
